@@ -27,7 +27,7 @@
 
 #### Unix системы
 
-`source .venv/activate`
+`source .venv/Scripts/activate`
 
 ### 4. Установка Django
 
