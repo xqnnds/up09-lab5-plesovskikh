@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(87, 94, 97);
+    color: rgb(144, 192, 236);
+    height: 100vh;
+}
+
+h1,p{
+    text-align: center;
+}
