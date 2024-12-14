@@ -14,8 +14,8 @@
                 
                     <li><a href="/">Главная</a></li>
                     <li><a href="/about">Обо мне</a></li>
-                    <li><a href="/posts">Посты</a></li>
-                    <li><a href="/communities">Группы</a></li>
+                    <li><a href="{% url 'posts:list' %}">Посты</a></li>
+                    <li><a href="{% url 'communities:list' %}">Группы</a></li>
                 
             </nav>
         </header>       
