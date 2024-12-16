@@ -135,4 +135,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'posts',
     'communities',
+    'users',
 ]
+
+MEDIA_URL = 'media/'
+
+MEDIA_ROOT = os.path.join(BASE_DIR)

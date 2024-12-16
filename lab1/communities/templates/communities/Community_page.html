@@ -1,6 +1,7 @@
 {% extends 'layout.html' %} {% block title %} {{ Community.name }} {% endblock %}
 {% block content %}
 <section>
+    <img class="banner" src="{{ Community.banner.url }}" alt="{{ Community.title }}" />
     <h1>{{ Community.name }}</h1>
     <p>{{ Community.date }}</p>
     <p>{{ Community.description }}</p>
